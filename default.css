@@ -5,17 +5,42 @@ body {
 p {
         color: black;
 }
+/*
+img.resize{
+    width: 540px;
+    height: auto;
+}
+*/
 h1 {
 }
 h2#first-header {
         font-weight: bold;
         font-size: 25px;
         color: green;
+        text-align: center;
+}
+h2#second-header {
+        font-weight: bold;
+        font-size: 25px;
+        color: green;
+        text-align: center;
+}
+h2#third-header {
+        font-weight: bold;
+        font-size: 25px;
+        color: green;
+        text-align: center;
+}
+h2#fourth-header {
+        font-weight: bold;
+        font-size: 25px;
+        color: green;
+        text-align: center;
 }
 div#footer {
         color: black;
         position: absolute;
-        width: 700px;
+        width: 50%;
         bottom: 0px;
         border: 1px solid black;
         text-align: center;
@@ -26,6 +51,8 @@ div#title {
         font-size: 30px;
         text-align: center;
         color: white;
+        border: 1px solid black;
+        background-color: gray;
 }
 div#subtitle {
         font-size:20px;
@@ -34,20 +61,49 @@ div#subtitle {
 }
 div#content1 {
         padding: 30px;
+        position: absolute;
         background-color: white;
         margin: 0px auto;
-        width: 300px;
+        width: 30%;
+        height: 15%;
         border: 5px solid black;
-        border-radius: 20px;
+        top: 30%;
         left: 10%;
+
 }
 div#content2 {
         padding: 30px;
+        position: absolute;
         background-color: white;
         margin: 0px auto;
-        width: 300px;
+        width: 30%;
+        height: 15%;
         border: 5px solid black;
         border-radius: 20px;
+        top: 30%;
+        right: 10%;
+}
+div#content3 {
+        padding: 30px;
+        position: absolute;
+        background-color: white;
+        margin: 0px auto;
+        width: 30%;
+        height:15%;
+        border: 5px solid black;
+        border-radius: 20px;
+        top: 60%;
+        left: 10%;
+}
+div#content4 {
+        padding: 30px;
+        position: absolute;
+        background-color: white;
+        margin: 0px auto;
+        width: 30%;
+        height: 15%;
+        border: 5px solid black;
+        top: 60%;
         right: 10%;
 }
 div#main_link {
