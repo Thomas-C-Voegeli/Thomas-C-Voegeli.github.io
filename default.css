@@ -1,125 +1,73 @@
 body {
-        background: url('blue-red-fade.jpg') no-repeat;
+        background: url('bridge1.jpg') no-repeat;
         background-size: cover;
 }
 p {
-        color: black;
-}
-/*
-img.resize{
-    width: 540px;
-    height: auto;
-}
-*/
-h1 {
-}
-h2#first-header {
-        font-weight: bold;
-        font-size: 30px;
-        color: green;
-        text-align: left;
-}
-h2#second-header {
-        font-weight: bold;
-        font-size: 30px;
-        color: green;
-        text-align: left;
-}
-h2#third-header {
-        font-weight: bold;
-        font-size: 30px;
-        color: green;
-        text-align: left;
-}
-h2#fourth-header {
-        font-weight: bold;
-        font-size: 30px;
-        color: green;
-        text-align: left;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 div#footer {
         color: black;
         position: absolute;
-        width: 50%;
+        width: 100%;
         bottom: 0px;
+        left: 0px;
         border: 1px solid black;
         text-align: center;
         background-color: white;
-        left: 25%;
 }
 div#title {
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         font-size: 30px;
         text-align: center;
-        color: white;
-        border: 5px solid black;
-        background-color: gray;
+        color: black;
+        /*border: 5px solid black;
+        background-color: white;*/
 }
 div#subtitle {
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
         font-size:20px;
         text-align: center;
+        color: white;
 
+}
+.frontwindow {
+        padding: 30px;
+        position: absolute;
+        background-color: white;
+        margin: 0px auto;
+        width: 30%;
+        height: 15%;
+        border: 5px solid black;
+        border-radius: 20px;
 }
 div#content1 {
 
         background: url('facade.jpg') no-repeat;
         background-size: cover;
-        padding: 30px;
-        position: absolute;
-        background-color: white;
-        margin: 0px auto;
-        width: 30%;
-        height: 15%;
-        border: 5px solid black;
-        border-radius: 20px;
         top: 30%;
         left: 10%;
-
 }
 div#content2 {
-        background: url('bridge1.jpg') no-repeat;
+        background: url('bridge2.jpg') no-repeat;
         background-size: cover;
-        padding: 30px;
-        position: absolute;
-        background-color: white;
-        margin: 0px auto;
-        width: 30%;
-        height: 15%;
-        border: 5px solid black;
-        border-radius: 20px;
         top: 30%;
         right: 10%;
 }
 div#content3 {
         background: url('lotus-temple.jpg') no-repeat;
         background-size: cover;
-        padding: 30px;
-        position: absolute;
-        background-color: white;
-        margin: 0px auto;
-        width: 30%;
-        height:15%;
-        border: 5px solid black;
-        border-radius: 20px;
         top: 60%;
         left: 10%;
 }
 div#content4 {
         background: url('honeycomb.jpg') no-repeat;
         background-size: cover;
-        padding: 30px;
-        position: absolute;
-        background-color: white;
-        margin: 0px auto;
-        width: 30%;
-        height: 15%;
-        border: 5px solid black;
-        border-radius: 20px;
         top: 60%;
         right: 10%;
 }
 div#main_link {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: left;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         color: black;
 }
