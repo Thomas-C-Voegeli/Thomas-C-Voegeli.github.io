@@ -34,7 +34,6 @@ div#subtitle {
 .frontwindow {
         padding: 30px;
         position: absolute;
-        background-color: white;
         margin: 0px auto;
         width: 30%;
         height: 15%;
@@ -66,8 +65,18 @@ div#content4 {
         top: 60%;
         right: 10%;
 }
-div#main_link {
+a:link {
         font-size: 30px;
+        color:black;
+        background:rgba(248,248,255,0.5);
+}
+a:visited {
         color: black;
-        /*background:rgba(248,248,255,0.5);*/
+}
+a:hover {
+        color: #99CCFF; /*#550055;*/
+        background:rgba(123,123,123,0.5);
+}
+section {
+        
 }
