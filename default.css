@@ -39,7 +39,11 @@ div#subtitle {
         height: 15%;
         border: 5px solid black;
         border-radius: 10px;
+        /*opacity: .5;*/
 }
+/*.frontwindow:hover {
+        opacity:1.0;
+}*/
 div#content1 {
 
         background: url('facade.jpg') no-repeat;
@@ -74,9 +78,6 @@ a:visited {
         color: black;
 }
 a:hover {
-        color: #99CCFF; /*#550055;*/
-        background:rgba(123,123,123,0.5);
-}
-section {
-        
+        color: #3366FF; /*#550055;*/
+        /*background:rgba(123,123,123,0.5);*/
 }
