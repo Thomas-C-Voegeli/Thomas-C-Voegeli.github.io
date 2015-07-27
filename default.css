@@ -22,7 +22,7 @@ h2 {
 div#footer {
         position: absolute;
         width: 100%;
-        bottom: 0px;
+        bottom: -248px;
         left: 0px;
         /*border: 1px solid black;*/
         font-size: 10px;
