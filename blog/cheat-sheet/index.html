@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <link rel="stylesheet" type="text/css" href="default.css">	
+	</head>
+	<body>
+		<div id="title">
+			<h1>The Cheat Sheet: Ruby Hashes</h1>
+		</div>
+		<div id="article">
+			<h2>Two ways to create hashes in Ruby:</h2>
+			<h3>Implicit form:</h3>
+			<div id="code_block">
+			    <p>grades = { "Jane Doe" => 10, "Jim Doe" => 6 }</p>
+			</div>
+			<h3>Eplicit form:</h3>
+			<div id="code_block">
+			    <p>grades = Hash.new</p>
+			    <p>grades["Dorothy Doe"] = 9</p>
+			</div>
+			<h2>To give default key values, use one of the following:</h2>
+			<div id="code_block"> 
+			    <p>grades = Hash.new(0)</p>
+			    <p>grades.default = 0</p>
+			</div>
+			<h2>Hashes allow an alternate syntax form when your keys are always symbols. Instead of</h2>
+			<div id="code_block">
+			    <p>options = { :font_size => 10, :font_family => "Arial" }</p>
+			</div>
+            <h2>You could write it as:</h2>
+            <div id="code_block">
+                <p>options = { font_size: 10, font_family: "Arial" }</p>
+            </div>
+            <h2>Each named key is a symbol you can access in hash:</h2>
+            <div id = "code_block">
+                <p>options[:font_size]  # => 10</p>
+            </div>
+		</div>
+		<div id="footer">
+		    <p>Page by Thomas Voegeli, Aug 2015. Content sourced from http://ruby-doc.org/core-2.2.0/Hash.html</p>
+		</div>
+	</body>
+</html>

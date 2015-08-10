@@ -1,5 +1,5 @@
 body {
-        background: url('bridge1.jpg') no-repeat;
+        background: url('../bridge1.jpg') no-repeat;
         background-size: cover;
         font-family: "Trebuchet MS", Helvetica, sans-serif;
         color: black;
@@ -20,9 +20,9 @@ h2 {
         font-weight: bold;
 }
 div#footer {
-        position: absolute;
+        float: bottom;
         width: 100%;
-        bottom: 0px;
+        bottom: -248px;
         left: 0px;
         /*border: 1px solid black;*/
         font-size: 10px;
@@ -58,7 +58,6 @@ div#subtitle {
         opacity:1.0;
 }*/
 div#content1 {
-
         background: url('facade.jpg') no-repeat;
         background-size: cover;
         top: 30%;

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+}
+
+#title {
+    text-align: center;
+    background-color: white;
+    border: 0.3em solid black;
+}
+#article {
+    border: 2px solid black;
+    padding: 1.5em;
+    margin: 0.5em;
+}
+
+#code_block {
+    font-family: Courier;
+    font-size: 14px;
+    color: white;
+    border: 2px solid gray;
+    margin: 1em;
+    padding: 0.5em;
+    background-color: black;
+}
+h1 {
+
+}
+h2 {
+    font-size: 16px;
+    /*text-decoration: underline;*/
+}
+h3 {
+    font-size: 13px;
+}
+#footer {
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black 
+}
